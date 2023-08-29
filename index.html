@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;500;600;700&family=Niconne&family=Open+Sans:wght@300;500;700&family=Roboto:wght@300;400;500;700&family=Space+Mono:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles/style.css" />
+		<title>Swipe</title>
+	</head>
+	<body>
+		<nav class="navbar">
+			<img src="assets/logo-white.svg" alt="swipe" />
+			<ul class="menu">
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Solutions</a></li>
+				<li><a href="#">Developers</a></li>
+				<li><a href="#">Resources</a></li>
+				<li><a href="#">Pricing</a></li>
+			</ul>
+			<button class="primary-btn navbar-btn">Sign In</button>
+		</nav>
+		<main>
+            <canvas id="gradient-canvas"></canvas>
+			<div class="hero">
+				<div class="section-container two-column">
+					<div class="col-left">
+						<h1>Payments infrastructure for the world</h1>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+							in corporis iste, veniam voluptatum maxime atque, mollitia
+							accusantium culpa dolores, amet nostrum aspernatur debitis
+							repellendus laboriosam necessitatibus accusamus enim obcaecati.
+						</p>
+						<div class="button-container">
+							<button class="primary-btn with-icon">
+								Start now
+								<img src="assets/arrow-right-light.svg" alt="icon-arrow" />
+							</button>
+							<button class="secondary-btn with-icon">
+								Contact sales
+								<img src="assets/arrow-right-purple.svg" alt="icon-arrow" />
+							</button>
+						</div>
+					</div>
+					<div class="col-right hero-phone-container">
+						<img class="hero-phone" src="assets/hero-phone.png" alt="phone" />
+					</div>
+				</div>
+			</div>
+			<div class="partners-section">
+				<div class="section-container">
+					<div class="partners-grid">
+						<img src="assets/instacart.png" alt="instacart" />
+						<img src="assets/salesforce.png" alt="salesforce" />
+						<img src="assets/amazon.png" alt="amazon" />
+						<img src="assets/slack.png" alt="slack" />
+						<img src="assets/shopify.png" alt="shopify" />
+						<img src="assets/google.png" alt="google" />
+						<img src="assets/lyft.png" alt="lyft" />
+						<img src="assets/zoom.png" alt="zoom" />
+					</div>
+				</div>
+			</div>
+			<div class="unified-platform">
+				<div class="section-container">
+					<p class="subtitle">Unified platform</p>
+					<h2>All the payment products you'll ever need</h2>
+
+					<div class="two-column">
+						<div class="col-left">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Accusamus, cum! Voluptatum nisi tempora eveniet dolor, explicabo
+								nesciunt exercitationem <a href="#">voluptatibus quidem</a>,
+								<a href="#"> eligendi maxime</a>,
+								<a href="#">numquam obcaecati non</a>,
+								<a href="#">facilis accusamus</a> aspernatur inventore esse?
+							</p>
+						</div>
+						<div class="col-right">
+							<p>
+								Lorem ipsum, dolor sit amet consectetur
+								<a href="#">adipisicing elit. Laborum</a>,
+								<a href="#">omnis doloribus reprehenderit</a>,
+								<a href="#">adipisci quas esse illum</a>, rerum provident.
+							</p>
+						</div>
+					</div>
+					<button class="primary-btn with-icon">
+						Start now
+						<img src="assets/arrow-right-light.svg" alt="arrow" />
+					</button>
+				</div>
+			</div>
+			<div class="graphic-section">
+				<div class="section-container">
+					<div class="graphic-grid">
+						<img
+							src="assets/credit-card.png"
+							alt="credit card"
+							id="credit-card"
+						/>
+						<img
+							src="assets/slack-invoice.png"
+							alt="slack-invoice"
+							id="invoice"
+						/>
+						<img src="assets/phone.png" alt="phone" id="phone" />
+						<img src="assets/dash.png" alt="dash" id="dash" />
+					</div>
+				</div>
+			</div>
+			<div class="integration-section">
+				<div class="section-container two-column">
+					<div class="col-left">
+						<p class="subtitle2">Designed for Engineers</p>
+						<h2>The world's best and most intuitive APIs</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolore
+							repellat dolor, eos labore, enim optio rem fuga totam iste sunt?
+						</p>
+						<button class="primary-btn with-icon">
+							Start now
+							<img src="assets/arrow-right-dark.svg" alt="arrow" />
+						</button>
+						<div class="card-container">
+							<div class="card">
+								<img class="icon" src="assets/tools-icon.png" alt="" />
+								<h3>Tools for all stacks</h3>
+								<p class="secondary-text">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+								<button class="secondary-btn with-icon">
+									See libraries
+									<img src="assets/arrow-right-blue.svg" alt="arrow" />
+								</button>
+							</div>
+							<div class="card">
+								<img class="icon" src="assets/cube-icon.png" alt="" />
+								<h3>Custom integration</h3>
+								<p class="secondary-text">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+								<button class="secondary-btn with-icon">
+									Explore partners
+									<img src="assets/arrow-right-blue.svg" alt="arrow" />
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-right">
+						<img src="assets/api-code.png" alt="" id="api-code" />
+						<img src="assets/terminal-code.png" alt="" id="terminal-code" />
+					</div>
+				</div>
+			</div>
+			<div class="why-section">
+				<div class="section-container">
+					<p class="subtitle">Why Swipe</p>
+					<h2>A tech-first approach to finance</h2>
+					<div class="card-container">
+						<div class="card">
+							<img src="assets/cloud-icon.png" alt="" />
+							<h3>Efficient always</h3>
+							<p class="secondary-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Deleniti sed eum recusandae doloribus sunt, minus assumenda
+								placeat dolor qui quis eveniet voluptates eaque!
+							</p>
+						</div>
+						<div class="card">
+							<img src="assets/cycle-icon.png" alt="" />
+							<h3>Fast improving</h3>
+							<p class="secondary-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Deleniti sed eum recusandae doloribus sunt, minus assumenda
+								placeat dolor qui quis eveniet voluptates eaque!
+							</p>
+						</div>
+						<div class="card">
+							<img src="assets/shield-icon.png" alt="" />
+							<h3>Tried and true</h3>
+							<p class="secondary-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Deleniti sed eum recusandae doloribus sunt, minus assumenda
+								placeat dolor qui quis eveniet voluptates eaque!
+							</p>
+						</div>
+						<div class="card">
+							<img src="assets/bars-icon.png" alt="" />
+							<h3>Crazy optimized</h3>
+							<p class="secondary-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Deleniti sed eum recusandae doloribus sunt, minus assumenda
+								placeat dolor qui quis eveniet voluptates eaque!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="global-section">
+				<div class="section-container">
+					<div class="two-column">
+						<div class="col-left">
+							<p class="subtitle2">Global scale</p>
+							<h2>A structure for global business</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+								qui facere neque sunt, deleniti, quam doloribus deserunt nulla,
+								nesciunt unde hic? Officiis, temporibus? Fugit officiis quo
+								<a href="#">tempore. Maxime, laborum! Amet.</a>
+							</p>
+						</div>
+						<div class="col-right">
+							<img id="globe" src="assets/global-graphic.png" alt="" />
+						</div>
+					</div>
+					<div class="card-container">
+						<div class="card">
+							<h3>250M+</h3>
+							<p class="secondary-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							</p>
+						</div>
+						<div class="card">
+							<h3>97%</h3>
+							<p class="secondary-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							</p>
+						</div>
+						<div class="card">
+							<h3>135+</h3>
+							<p class="secondary-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							</p>
+						</div>
+						<div class="card">
+							<h3>35+</h3>
+							<p class="secondary-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="virtual-events-section">
+				<div class="section-container two-column">
+					<div class="col-left">
+						<p class="subtitle">Virtual events</p>
+						<h2>Check out Sessions now!</h2>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+							praesentium dolorem eos consequatur ipsam eum, animi quisquam
+							corrupti accusantium eveniet magnam deleniti consequuntur vero
+							placeat natus eaque obcaecati porro inventore.
+						</p>
+						<button class="primary-btn with-icon">
+							Start now
+							<img src="assets/arrow-right-light.svg" alt="" />
+						</button>
+					</div>
+					<div class="col-right">
+						<div class="card-container">
+							<div class="card-top">
+								<img
+									class="sessions-logo"
+									src="assets/swipe-sessions.png"
+									alt=""
+								/>
+								<div class="avatars">
+									<img src="assets/avatar1.png" alt="" />
+									<img src="assets/avatar2.png" alt="" />
+								</div>
+							</div>
+							<div class="card-bottom">
+								<div class="card-content">
+									<p class="subtitle">Keynote</p>
+									<p class="secondary-text">
+										Everything you nee to know about the internet economy
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="getting-started-section">
+				<div class="section-container two-column">
+					<div class="col-left">
+						<h2>What are you waiting for?</h2>
+						<p>
+							Lorem <a href="#">ipsum dolor sit amet</a> consectetur adipisicing
+							elit. Ducimus iure accusantium, eius officiis sunt amet dolores
+							consectetur doloremque aliquam aut exercitationem, deserunt est
+							laboriosam beatae quisquam magni maxime, molestiae iste?
+						</p>
+						<button class="primary-btn with-icon">
+							Start now
+							<img src="assets/arrow-right-light.svg" alt="" />
+						</button>
+					</div>
+					<div class="col-right">
+						<div class="card">
+							<img class="icon" src="assets/shield-icon.png" alt="" />
+							<h3>Always know what you pay</h3>
+							<p class="secondary-text">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+								et fugiat minus expedita pariatur sapiente.
+							</p>
+                            <button class="secondary-btn with-icon">Pricing details
+                                <img src="assets/arrow-right-purple.svg" alt="">
+                            </button>
+						</div>
+                        <div class="card">
+							<img class="icon" src="assets/bars-icon.png" alt="" />
+							<h3>Start your integration</h3>
+							<p class="secondary-text">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+								et fugiat minus expedita pariatur sapiente.
+							</p>
+                            <button class="secondary-btn with-icon">API reference
+                                <img src="assets/arrow-right-purple.svg" alt="">
+                            </button>
+						</div>
+					</div>
+				</div>
+			</div>
+            <footer class="footer">
+                <div class="section-container">
+                    <div class="col">
+                        <img id="footer-logo" src="assets/logo-dark.svg" alt="">
+                        <div class="icon-link">
+                            <img src="assets/location-icon.png" alt="">
+                            <a href="">United States</a>
+                        </div>
+                        <div class="icon-link">
+                            <img src="assets/comment-icon.png" alt="">
+                            <a href="">English (United States)</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3>Products</h3>
+                        <ul>
+                            <li><a href="#">Atlas</a></li>
+                            <li><a href="#">Billing</a></li>
+                            <li><a href="#">Invoicing</a></li>
+                            <li><a href="#">Payments</a></li>
+                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">Identity</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Use Cases</h3>
+                        <ul>
+                            <li><a href="#">eCommerce</a></li>
+                            <li><a href="#">SaaS</a></li>
+                            <li><a href="#">Marketplaces</a></li>
+                            <li><a href="#">Embedded Finance</a></li>
+                            <li><a href="#">Crypto</a></li>
+                            <li><a href="#">Creator Economy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Licenses</a></li>
+                            <li><a href="#">Privacy & Terms</a></li>
+                            <li><a href="#">Cookie Settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+		</main>
+        <script src="gradient.js"></script>
+	</body>
+</html>
